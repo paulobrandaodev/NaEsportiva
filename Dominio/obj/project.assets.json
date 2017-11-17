@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Repositorio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Repositorio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repositorio.dll": {}
+        }
       }
     }
   },
@@ -169,11 +179,17 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Repositorio/1.0.0": {
+      "type": "project",
+      "path": "../Repositorio/Repositorio.csproj",
+      "msbuildProject": "../Repositorio/Repositorio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.0"
+      "NETStandard.Library >= 2.0.0",
+      "Repositorio >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -183,11 +199,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\39554884893\\backend\\NaEsportiva\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\39554884893\\backend\\NaEsportiva\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "c:\\Users\\39554884893\\backend\\NaEsportiva\\Dominio\\Dominio.csproj",
+      "projectPath": "C:\\Users\\39554884893\\backend\\NaEsportiva\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\39554884893\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\39554884893\\backend\\NaEsportiva\\Dominio\\obj\\",
+      "outputPath": "C:\\Users\\39554884893\\backend\\NaEsportiva\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -203,7 +219,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\39554884893\\backend\\NaEsportiva\\Repositorio\\Repositorio.csproj": {
+              "projectPath": "C:\\Users\\39554884893\\backend\\NaEsportiva\\Repositorio\\Repositorio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

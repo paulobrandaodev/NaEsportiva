@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\39554884893\\backend\\NaEsportiva\\Repositorio\\Repositorio.csproj",
+      "projectUniqueName": "C:\\Users\\39554884893\\backend\\NaEsportiva\\Repositorio\\Repositorio.csproj",
       "projectName": "Repositorio",
-      "projectPath": "c:\\Users\\39554884893\\backend\\NaEsportiva\\Repositorio\\Repositorio.csproj",
+      "projectPath": "C:\\Users\\39554884893\\backend\\NaEsportiva\\Repositorio\\Repositorio.csproj",
       "packagesPath": "C:\\Users\\39554884893\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\39554884893\\backend\\NaEsportiva\\Repositorio\\obj\\",
+      "outputPath": "C:\\Users\\39554884893\\backend\\NaEsportiva\\Repositorio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

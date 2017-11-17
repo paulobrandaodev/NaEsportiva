@@ -3,7 +3,7 @@ using Dominio.interfaces;
 
 namespace Dominio.classes
 {
-    public class PJ : IDominio
+    public class PJ
     {
         
         public int Id { get; set; }
